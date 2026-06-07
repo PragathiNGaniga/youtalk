@@ -1,4 +1,4 @@
-cfrom flask import Flask, render_template, request, redirect, session, url_for, flash, send_file, jsonify
+from flask import Flask, render_template, request, redirect, session, url_for, flash, send_file, jsonify
 import mysql.connector
 from mysql.connector import Error
 import os
